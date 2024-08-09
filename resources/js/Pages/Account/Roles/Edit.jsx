@@ -69,7 +69,7 @@ export default function RoleEdit() {
     return (
         <>
             <Head>
-                <title>Edit Roles - Geek Store</title>
+                <title>Edit Roles - Ammshoes Store</title>
             </Head>
             <LayoutAccount>
                 <div className="row mt-4">

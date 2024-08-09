@@ -68,7 +68,7 @@ export default function UserCreate() {
     return (
         <>
             <Head>
-                <title>Create Users - Geek Store</title>
+                <title>Create Users - Ammshoes Store</title>
             </Head>
             <LayoutAccount>
                 <div className="row mt-4">

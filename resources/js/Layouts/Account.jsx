@@ -11,7 +11,7 @@ import { usePage } from '@inertiajs/inertia-react';
 import { Inertia } from '@inertiajs/inertia';
 
 //import Sidebar
-import Sidebar from '../components/Sidebar';
+import Sidebar from '../Components/Sidebar';
 
 export default function LayoutAccount ({children}) {
 
@@ -54,7 +54,7 @@ export default function LayoutAccount ({children}) {
                 <div className="bg-sidebar" id="sidebar-wrapper">
                     <div className="sidebar-heading bg-light text-center">
                     <img src="/assets/images/logo.png" width={'23'}/> 
-                    <strong> GEEK</strong> <small>STORE</small></div>
+                    <strong> Ammshoes</strong> <small>STORE</small></div>
                     <Sidebar />
                 </div>
                 <div id="page-content-wrapper">

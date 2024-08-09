@@ -27,7 +27,7 @@ export default function CategoryIndex() {
     return(
         <>
             <Head>
-                <title>Categories - Geek Store</title>
+                <title>Categories - Ammshoes Store</title>
             </Head>
             <LayoutAccount>
                 <div class="row mt-5">

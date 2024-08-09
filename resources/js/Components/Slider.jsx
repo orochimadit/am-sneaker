@@ -14,7 +14,7 @@ export default function Slider() {
             <div className="container" style={{ marginTop: '80px' }}>
                 <div className="fade-in">
                     <div className="row justify-content-center">
-                        <div className="col-md-8">
+                        <div className="col-md-10">
                             <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
                                 <div className="carousel-inner">
                                     {sliders.map((slider, index) => (

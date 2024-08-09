@@ -51,7 +51,7 @@ export default function ColorEdit() {
     return (
         <>
             <Head>
-                <title>Edit Color - Geek Store</title>
+                <title>Edit Color - Ammshoes Store</title>
             </Head>
             <LayoutAccount>
                 <div className="row mt-4">

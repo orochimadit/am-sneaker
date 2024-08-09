@@ -95,7 +95,7 @@ export default function ProductEdit() {
     return (
         <>
             <Head>
-                <title>Edit Product - Geek Store</title>
+                <title>Edit Product - Ammshoes Store</title>
             </Head>
             <LayoutAccount>
                 <div className="row mt-4">

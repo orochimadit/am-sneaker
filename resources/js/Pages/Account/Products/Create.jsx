@@ -95,7 +95,7 @@ export default function ProductCreate() {
     return (
         <>
             <Head>
-                <title>Create Product - Geek Store</title>
+                <title>Create Product - Ammshoes Store</title>
             </Head>
             <LayoutAccount>
                 <div className="row mt-4">

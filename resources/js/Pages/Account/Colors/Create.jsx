@@ -50,7 +50,7 @@ export default function ColorCreate() {
     return (
         <>
             <Head>
-                <title>Create Color - Geek Store</title>
+                <title>Create Color - Ammshoes Store</title>
             </Head>
             <LayoutAccount>
                 <div className="row mt-4">

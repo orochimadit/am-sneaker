@@ -27,7 +27,7 @@ export default function UserIndex() {
     return(
         <>
             <Head>
-                <title>Users - Geek Store</title>
+                <title>Users - Ammshoes Store</title>
             </Head>
             <LayoutAccount>
                 <div class="row mt-5">

@@ -51,7 +51,7 @@ export default function CategoryEdit() {
     return (
         <>
             <Head>
-                <title>Edit Category - Geek Store</title>
+                <title>Edit Category - Ammshoes Store</title>
             </Head>
             <LayoutAccount>
                 <div className="row mt-4">

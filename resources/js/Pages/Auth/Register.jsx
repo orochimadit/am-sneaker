@@ -34,14 +34,14 @@ export default function Register() {
     return (
         <>
             <Head>
-                <title>Register Account - Geek Store</title>
+                <title>Register Account - Ammshoes Store</title>
             </Head>
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-md-6 mt-80">
                         <div className="text-center mb-4">
                             <img src="/assets/images/logo.png" width={'60'} />
-                            <h4><strong>GEEK</strong> STORE</h4>
+                            <h4><strong>Ammshoes</strong> STORE</h4>
                         </div>
                         <div className="card border-0 rounded-3 shadow-sm border-top-success">
                             <div className="card-body">

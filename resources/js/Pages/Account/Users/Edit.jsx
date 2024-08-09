@@ -75,7 +75,7 @@ export default function UserEdit() {
     return (
         <>
             <Head>
-                <title>Edit Users - Geek Store</title>
+                <title>Edit Users - Ammshoes Store</title>
             </Head>
             <LayoutAccount>
                 <div className="row mt-4">

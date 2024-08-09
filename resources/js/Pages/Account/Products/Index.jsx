@@ -27,7 +27,7 @@ export default function ProductIndex() {
     return(
         <>
             <Head>
-                <title>Products - Geek Store</title>
+                <title>Products - Ammshoes Store</title>
             </Head>
             <LayoutAccount>
                 <div class="row mt-5">

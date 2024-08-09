@@ -21,7 +21,7 @@ export default function ProductIndex() {
     return (
         <>
             <Head>
-                <title>Products - Geek Store - Where Developer Shopping</title>
+                <title>Products - Amsshoes Store - Where We Need Shoes </title>
             </Head>
             <LayoutWeb>
 

@@ -61,7 +61,7 @@ export default function ProductShow() {
     return (
         <>
             <Head>
-                <title>Detail Product - Geek Store</title>
+                <title>Detail Product - Ammshoes Store</title>
             </Head>
             <LayoutAccount>
                 <div className="row mt-4">

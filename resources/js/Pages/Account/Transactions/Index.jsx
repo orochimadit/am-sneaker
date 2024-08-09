@@ -27,7 +27,7 @@ export default function TransactionIndex() {
     return (
         <>
             <Head>
-                <title>Transactions - Geek Store</title>
+                <title>Transactions - Ammshoes Store</title>
             </Head>
             <LayoutAccount>
                 <div class="row mt-5">

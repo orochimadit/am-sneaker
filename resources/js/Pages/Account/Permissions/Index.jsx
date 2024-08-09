@@ -21,7 +21,7 @@ export default function PermissionIndex() {
     return(
         <>
             <Head>
-                <title>Permissions - Geek Store</title>
+                <title>Permissions - Ammshoes Store</title>
             </Head>
             <LayoutAccount>
                 <div class="row mt-5">

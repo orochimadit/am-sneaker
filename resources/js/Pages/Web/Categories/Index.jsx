@@ -21,7 +21,7 @@ export default function CategoryIndex() {
     return (
         <>
             <Head>
-                <title>Categories - Geek Store - Where Developer Shopping</title>
+                <title>Categories - Ammshoes Store - Where We Need Shoes</title>
             </Head>
             <LayoutWeb>
 

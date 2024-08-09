@@ -111,7 +111,7 @@ export default function CheckoutIndex() {
     return (
         <>
             <Head>
-                <title>Checkouts - Geek Store - Where Developer Shopping</title>
+                <title>Checkouts - Ammshoes Store - Where We Need Shoes </title>
             </Head>
             <LayoutWeb>
 

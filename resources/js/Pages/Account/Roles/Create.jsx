@@ -62,7 +62,7 @@ export default function RoleCreate() {
     return (
         <>
             <Head>
-                <title>Create Roles - Geek Store</title>
+                <title>Create Roles - Ammshoes Store</title>
             </Head>
             <LayoutAccount>
                 <div className="row mt-4">

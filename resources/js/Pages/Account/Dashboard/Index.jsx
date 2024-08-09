@@ -73,7 +73,7 @@ export default function Dashboard() {
     return (
         <>
             <Head>
-                <title>Dashboard - Geek Store</title>
+                <title>Dashboard - Ammshoes Store</title>
             </Head>
             <LayoutAccount>
             

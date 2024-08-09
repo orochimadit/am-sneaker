@@ -7,6 +7,7 @@ use App\Models\Product;
 use App\Models\Category;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\DB;
 
 class HomeController extends Controller
 {
@@ -26,11 +27,18 @@ class HomeController extends Controller
 
         //get products
         $products = Product::with('productImages.color', 'productSizes')->latest()->take(8)->get();
-
+        $bestSellers = Product::with('productImages.color', 'productSizes')
+        ->select('products.*', DB::raw('MAX(product_sizes.price) as max_price'))
+                        ->join('product_sizes', 'product_sizes.product_id', '=', 'products.id')
+                        ->groupBy('products.id')
+                        ->orderBy('max_price', 'desc')  // Order by the maximum price
+                        ->take(8)
+                        ->get();
         return inertia('Web/Home/Index', [
             'sliders'       => $sliders,
             'categories'    => $categories,
-            'products'      => $products
+            'products'      => $products,
+            'bestSellers'   => $bestSellers, 
         ]);
     }
 }

@@ -50,7 +50,7 @@ export default function CategoryCreate() {
     return (
         <>
             <Head>
-                <title>Create Category - Geek Store</title>
+                <title>Create Category - Ammshoes Store</title>
             </Head>
             <LayoutAccount>
                 <div className="row mt-4">

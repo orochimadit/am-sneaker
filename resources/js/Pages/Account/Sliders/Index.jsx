@@ -21,7 +21,7 @@ export default function SliderIndex() {
     return (
         <>
             <Head>
-                <title>Sliders - Geek Store</title>
+                <title>Sliders - Ammshoes Store</title>
             </Head>
             <LayoutAccount>
 
